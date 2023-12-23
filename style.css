@@ -1,0 +1,90 @@
+.container
+{
+    padding: 10rem;
+    max-width: 10rem;
+    background-color: aquamarine;
+    margin: auto;
+
+}
+.grid
+{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3,1fr);
+    justify-self: unset;
+    background-color: blueviolet;
+}
+.one 
+{
+    background-color: aliceblue;
+}
+.two
+{
+    background-color: aliceblue;
+}
+.three
+{
+    background-color: aliceblue;
+}
+.four
+{
+    background-color: aliceblue;
+}
+.five
+{
+    background-color: aliceblue;
+}
+.six
+{
+    background-color: aliceblue;
+}
+.seven
+{
+    background-color: aliceblue;
+}
+.eight
+{
+    background-color: aliceblue;
+}
+.one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+  }
+  .four{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: center;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  
+  
+
